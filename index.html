@@ -1,0 +1,112 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a Server App For Windows</title>
+    <style>
+        body {
+            background-color: #DFF2EB;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #4A628A;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 35px;
+            font-weight: lighter;
+        }
+        h3 {
+            font-size: 25px;
+            transition: transform 0.25s ease;
+            text-align: center;
+        }
+        h3:hover {transform: scale(1.1);}
+        code {
+            font-weight: bolder;
+        }
+        #bot {
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            font-style: italic;
+            align-items: end;
+            font-size: 12px;
+            transition: transform 0.25s ease-out;
+        }
+        #bot:hover{transform: scale(1.5);}
+    </style>
+</head>
+<body>
+    <h1>Introduccion a Server App For Windows</h1>
+    <section>
+        <h2>Version: 1.0 - Beta 1</h2>
+        <br><h3>Esta version que contiene?</h3>
+        <p>
+            Esta es la primera versión de Server App For Windows. Esta version está en fase beta por lo que puede estar propenso a errores. Server App For Windows esta destinada al control de servidores de Minecraft Bedrock como saber su:
+            <ul>
+                <li>Versión</li>
+                <li>Edición</li>
+                <li>IP</li>
+                <li>Puerto</li>
+            </ul>
+            Ademas podemos medir el consumo de recursos basado en el administrador de tareas de windows como:
+            <ul>
+                <li>Uso de CPU</li>
+                <li>Uso de RAM</li>
+                <li>Uso de Red</li>
+            </ul>
+            De esta forma se puede manipular el rendimiento de la app. Segun cumplan los requsitos
+        </p>
+        <br><h3>Requisitos de instalación:</h3>
+        <ul>
+            <li><strong>CPU:</strong> Intel® Core® I3 2° Generacion o Ryzen 3 2000 Series o superior</li>
+            <li><strong>RAM:</strong> 2GB/3GB o superior</li>
+            <li><strong>Almacenamiento:</strong> 1GB/2GB o superior</li>
+            <li><strong>Red:</strong> Conectividad Minima de 5 Mbps para una experiencia fluida o superior</li>
+            <li><strong>OS:</strong> Windows 10 1703 o Windows Server 2016 o superior</li>
+        </ul>
+        Estos requsitos son aplicados para que tengas una experiencia fluida y sin complicaciones
+        <br><h3>Instalación</h3>
+        <ul>
+            <li>Abres el archivo que se llama "ServerAppBeta1Installer.exe" No Se requieren permisos de administrador</li>
+            <li>Pulsas el boton "examinar" y seleccionas tu ruta de destino</li>
+            <li>Pulsa el boton "Extraer" y espera un momento</li>
+            <li>Va y buscas el directorio donde extrajo el paquete debe aparecer algo asi<br><code>
+                |<br>
+                + [Carpeta] dist<br>
+                + [Carpeta] code<br>
+                + [Archivo] NodeRunner.cmd<br>
+            </code>
+            </li>
+            <li>En la barra donde esta el directorio tocas el espacio vacio y escribes:
+                <code>NodeRunner -App</code> esto va a empezar a ejecutar la app con normalidad
+            </li>
+            <li>Seleccionas el directorio donde tengas el archivo <code>bedrock_server.exe</code></li>
+        </ul>
+        <br><h3>Uso</h3>
+        <ul>
+            <li>En la pestaña principal el boton <b>Iniciar</b> Permite ejecutar el servidor en local</li>
+            <li>En la pestaña principal el boton <b>Detener</b> Permite Detener el servidor en local</li>
+            <li>En la pestaña principal el boton <b>Reiniciar</b> Permite detener y volver a ejecutar el servidor en local</li>
+            <li>En la pestaña de archivos tenemos las mismas funcionalidades que en el explorador de archivos</li>
+            <li>Pero recuerda el explorador de archivos <b>SOLO ABRE ARCHIVOS EN FORMATO .properties .txt .json .exe .zip .tar.gz y carpetas</b>. Incluye un editor de texto integrado para los archivos .properties .txt .json </li>
+        </ul>
+        <br><h3>Restablecer App</h3>
+        <ul>
+            <li>Ve al directorio de la instalación</li>
+            <li>En la barra donde esta el directorio tocas el espacio vacio y escribes:
+                <code>NodeRunner -AppRes</code></li>
+            <li>En la ventana que se abrio pulsa el boton "Restablecer Ahora" esto abrira un cuadro de dialogo</li>
+            <li>Pulsa en "Yes" en el cuadro de dialogo y esperas un momento</li>
+            <li>Pulsa "Ok" y luego cierra la ventana</li>
+        </ul>
+    </section>
+    <br><br>
+    <p id="bot"> --== Server App For Windows. Todo el control en un solo lugar ==--</p>
+    <br><br>
+</body>
+</html>
