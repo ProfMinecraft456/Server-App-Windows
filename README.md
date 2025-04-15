@@ -59,3 +59,4 @@ El proyecto "Server App For Windows", es una aplicación diseñada en Python par
 pip install PySide6
 pip install pygame
 pip install rich
+pip install psutil
