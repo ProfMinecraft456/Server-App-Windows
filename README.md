@@ -55,10 +55,8 @@ El proyecto "Server App For Windows", es una aplicación diseñada en Python par
 - shutil
 - time
 
-Bash
-```
+```Bash
 pip install PySide6
 pip install pygame
 pip install shutil
 pip install rich
-```
